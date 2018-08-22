@@ -3,7 +3,7 @@
 //  WalkbaseEngageSDK
 //
 //  Created by Markus Rautopuro on 20.11.2014.
-//  Copyright (c) 2018 Walkbase. All rights reserved.
+//  Copyright (c) 2014 Markus Rautopuro. All rights reserved.
 //
 
 @import UIKit;

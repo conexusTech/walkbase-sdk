@@ -3,7 +3,7 @@
 //  WalkbaseEngageSDK
 //
 //  Created by Markus Rautopuro on 20.11.2014.
-//  Copyright (c) 2018 Walkbase. All rights reserved.
+//  Copyright (c) 2014 Markus Rautopuro. All rights reserved.
 //
 
 @class WBEngageManager, WBEngageAdvertisement;
@@ -38,7 +38,7 @@ typedef NS_ENUM(NSInteger, WBError) {
     WBErrorBluetoothOff,
     /** The device doesn't have Bluetooth LE implemented */
     WBErrorBluetoothUnsupported,
-    /** The user has not authorized this application to use Bluetooth LE */
+    /** The device doesn't have Bluetooth LE implemented */
     WBErrorBluetoothUnauthorized,
     /** The user has disabled background refresh for this application */
     WBErrorBackgroundRefreshDenied,
@@ -49,9 +49,7 @@ typedef NS_ENUM(NSInteger, WBError) {
     /** An unknown error, the actual error is embedded */
     WBErrorUnknown,
     /** Running in Simulator, features not available */
-    WBErrorSimulator,
-    /** API request timed out */
-    WBErrorAPIRequestTimedOut
+    WBErrorSimulator
 };
 
 /** The `WBEngageManagerDelegate` will notify the controller about anything that happens inside `WBEngageManager`.
